@@ -1,0 +1,55 @@
+.parent {
+    display:flex; 
+    flex-flow:row wrap; 
+    justify-content: space-between;
+    align-items:flex-start; 
+    align-content: flex-start;
+    height:500px; 
+    width:1000px;
+}
+.container {display:flex; 
+    flex-flow:row wrap; 
+    justify-content: space-between;
+    align-items:flex-start; 
+    align-content: flex-start;
+    height:500px; 
+    width:500px;
+}
+.article-parent{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items:flex-start; 
+    align-content: flex-start;
+    height: 250px;
+    width:500px;
+}
+.header {
+    height:250px; 
+    width:500px;
+    background-color: red;
+    align-self: flex-start;
+    border: 1px solid black;
+}
+
+.article {
+    height:250px; 
+    width:250px;
+    background-color: yellow;
+    align-self: flex-start;
+    border: 1px solid black;
+
+}
+.menu {
+    height:500px;
+    width:500px;
+    background-color: green;
+   
+    
+}
+.footer {
+    background-color: blue;
+    width:100%;
+    border: 1px solid black;
+
+}
